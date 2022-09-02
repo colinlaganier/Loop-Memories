@@ -1,0 +1,106 @@
+.loop-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text-color);
+}
+.loop-footer-content {
+    width: 30rem;
+    margin: auto;
+}
+.loop-footer-download-loop {
+    font-size: 1.5rem;
+    line-height: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+.loop-footer-desc {
+    font-size: 1rem;
+    margin: auto;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.loop-footer-nobr {
+    white-space: nowrap;
+    font-weight: 600;
+}
+.loop-footer-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 0.6em;
+}
+.loop-footer-link {
+    width: 47.5%; 
+    font-size: 1rem;
+    line-height: 2.4;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+    transition: 0.1s;
+}
+.loop-footer-link:hover {
+    background-color: var(--theblue);
+    color: black;
+}
+
+.loop-footer-logo {
+    width: 2rem; 
+    height: 2rem;
+    margin: auto 1rem auto 0;
+}
+.loop-footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.loop-footer-link-icon {
+    margin-right: 0.25rem;
+}
+
+.loop-footer-ppfaq-links {
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+}
+
+.loop-footer-ppfaq-links > * {
+    color: var(--text-color);
+    margin: 0 0.2rem;
+    opacity: 0.4;
+    font-weight: 500;
+}
+
+.loop-footer-ppfaq-links > a:hover {
+    color: var(--text-color);
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 600px) {
+    .loop-footer-content {
+        width: 100%;
+    }
+    .loop-footer-download-loop {
+        font-size: 1.2rem;
+    }
+    .loop-footer-desc {
+        font-size: 0.9rem;
+    }
+    .loop-footer-links {
+        justify-content: space-around;
+    }
+    .loop-footer-link {
+        width: 90%;
+    }
+    .loop-footer-logo {
+        width: 1.75rem;
+        height: 1.75rem;
+        /* margin-top: 0.5rem; */
+    }
+}
